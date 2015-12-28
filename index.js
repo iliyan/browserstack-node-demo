@@ -1,11 +1,8 @@
+var bs = require('./browserstack.js');
 var webdriver = require('browserstack-webdriver');
 
 // Input capabilities
-var capabilities = {
-  'browserName': 'firefox',
-  'browserstack.user': 'browserstack512',
-  'browserstack.key': 'XKDMu5yXdzAYvGT1eRqw'
-};
+var capabilities = bs.capabilities;
 
 var driver = new webdriver.Builder()
     .usingServer('http://hub.browserstack.com/wd/hub')
