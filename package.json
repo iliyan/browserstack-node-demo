@@ -4,7 +4,8 @@
   "description": "A sample testing exnvironment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iliyan/browserstack-node-demo/issues"
+  },
+  "devDependencies": {
+    "browserstack-webdriver": "^2.41.1"
   }
 }
