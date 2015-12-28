@@ -9,7 +9,7 @@ var capabilities = _.merge(bs.capabilities, {
   os_version: 'Yosemite',
   resolution: '1024x768',
 
-  build: '1',
+  build:  process.env.TRAVIS_BUILD_NUMBER || '<manual>',
   name: 'Protractor Tests'
 });
 
