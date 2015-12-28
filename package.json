@@ -16,10 +16,10 @@
   "bugs": {
     "url": "https://github.com/iliyan/browserstack-node-demo/issues"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "browserstack-webdriver": "^2.41.1",
+    "lodash": "^3.10.1",
     "protractor": "^3.0.0"
   }
 }
